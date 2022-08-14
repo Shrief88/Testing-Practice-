@@ -1,16 +1,19 @@
 import reverseString from '../code/reverse_string'
 
-test('reverse string',()=>{
+test.skip('reverse string',()=>{
     expect(reverseString("shrief")).toBe("feirhs");
 })
 
-test('dealing with empty strings',()=>{
+test.skip('dealing with empty strings',()=>{
     expect(reverseString("")).toBe("");
 })
 
-test('palindrome words',()=>{
+test.skip('palindrome words',()=>{
     expect(reverseString("rotator")).toBe("rotator");
 })
 
+test.skip('reverses multiple words', () => {
+    expect(reverseString('hello there')).toEqual('ereht olleh')
+})
 
 

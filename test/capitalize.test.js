@@ -16,3 +16,5 @@ test.skip('dealing with capitalzed letters',()=>{
     expect(capitalize("sHRIef")).toBe("Shrief");
 })
 
+
+
